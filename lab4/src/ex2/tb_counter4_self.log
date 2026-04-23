@@ -1,0 +1,87 @@
+[0 ns] ==================================================
+[0 ns]   counter4 : tb start (self-checking)
+[0 ns] ==================================================
+[0 ns] --------------------------------------------------
+[0 ns] TC1 : dem len 20 chu ky + rollover
+[0 ns] --------------------------------------------------
+[31000 ns] INFO: reset da duoc nha, q_out=0
+[36000 ns] PASS #1  q_out=1 exp=1  (count up)
+[46000 ns] PASS #2  q_out=2 exp=2  (count up)
+[56000 ns] PASS #3  q_out=3 exp=3  (count up)
+[66000 ns] PASS #4  q_out=4 exp=4  (count up)
+[76000 ns] PASS #5  q_out=5 exp=5  (count up)
+[86000 ns] PASS #6  q_out=6 exp=6  (count up)
+[96000 ns] PASS #7  q_out=7 exp=7  (count up)
+[106000 ns] PASS #8  q_out=8 exp=8  (count up)
+[116000 ns] PASS #9  q_out=9 exp=9  (count up)
+[126000 ns] PASS #10  q_out=a exp=a  (count up)
+[136000 ns] PASS #11  q_out=b exp=b  (count up)
+[146000 ns] PASS #12  q_out=c exp=c  (count up)
+[156000 ns] PASS #13  q_out=d exp=d  (count up)
+[166000 ns] PASS #14  q_out=e exp=e  (count up)
+[176000 ns] PASS #15  q_out=f exp=f  (count up)
+[186000 ns] PASS #16  q_out=0 exp=0  (count up)
+[196000 ns] PASS #17  q_out=1 exp=1  (count up)
+[206000 ns] PASS #18  q_out=2 exp=2  (count up)
+[216000 ns] PASS #19  q_out=3 exp=3  (count up)
+[226000 ns] PASS #20  q_out=4 exp=4  (count up)
+[226000 ns] --------------------------------------------------
+[226000 ns] TC2 : enable=0 giu gia tri
+[226000 ns] --------------------------------------------------
+[236000 ns] PASS #21  q_out=5 exp=5  (warm-up up)
+[246000 ns] PASS #22  q_out=6 exp=6  (warm-up up)
+[256000 ns] PASS #23  q_out=7 exp=7  (warm-up up)
+[266000 ns] PASS #24  q_out=7 exp=7  (hold (en=0))
+[276000 ns] PASS #25  q_out=7 exp=7  (hold (en=0))
+[286000 ns] PASS #26  q_out=7 exp=7  (hold (en=0))
+[296000 ns] PASS #27  q_out=7 exp=7  (hold (en=0))
+[306000 ns] PASS #28  q_out=7 exp=7  (hold (en=0))
+[306000 ns] --------------------------------------------------
+[306000 ns] TC3 : dem xuong 20 chu ky + rollover
+[306000 ns] --------------------------------------------------
+[331000 ns] INFO: reset da duoc nha, q_out=0
+[336000 ns] PASS #29  q_out=f exp=f  (count down)
+[346000 ns] PASS #30  q_out=e exp=e  (count down)
+[356000 ns] PASS #31  q_out=d exp=d  (count down)
+[366000 ns] PASS #32  q_out=c exp=c  (count down)
+[376000 ns] PASS #33  q_out=b exp=b  (count down)
+[386000 ns] PASS #34  q_out=a exp=a  (count down)
+[396000 ns] PASS #35  q_out=9 exp=9  (count down)
+[406000 ns] PASS #36  q_out=8 exp=8  (count down)
+[416000 ns] PASS #37  q_out=7 exp=7  (count down)
+[426000 ns] PASS #38  q_out=6 exp=6  (count down)
+[436000 ns] PASS #39  q_out=5 exp=5  (count down)
+[446000 ns] PASS #40  q_out=4 exp=4  (count down)
+[456000 ns] PASS #41  q_out=3 exp=3  (count down)
+[466000 ns] PASS #42  q_out=2 exp=2  (count down)
+[476000 ns] PASS #43  q_out=1 exp=1  (count down)
+[486000 ns] PASS #44  q_out=0 exp=0  (count down)
+[496000 ns] PASS #45  q_out=f exp=f  (count down)
+[506000 ns] PASS #46  q_out=e exp=e  (count down)
+[516000 ns] PASS #47  q_out=d exp=d  (count down)
+[526000 ns] PASS #48  q_out=c exp=c  (count down)
+[526000 ns] --------------------------------------------------
+[526000 ns] TC4 : bat-tat enable xen ke
+[526000 ns] --------------------------------------------------
+[551000 ns] INFO: reset da duoc nha, q_out=0
+[566000 ns] PASS #49  q_out=0 exp=0  (toggle en)
+[576000 ns] PASS #50  q_out=1 exp=1  (toggle en)
+[586000 ns] PASS #51  q_out=1 exp=1  (toggle en)
+[596000 ns] PASS #52  q_out=2 exp=2  (toggle en)
+[606000 ns] PASS #53  q_out=2 exp=2  (toggle en)
+[616000 ns] PASS #54  q_out=3 exp=3  (toggle en)
+[626000 ns] PASS #55  q_out=3 exp=3  (toggle en)
+[636000 ns] PASS #56  q_out=4 exp=4  (toggle en)
+[646000 ns] PASS #57  q_out=4 exp=4  (toggle en)
+[656000 ns] PASS #58  q_out=5 exp=5  (toggle en)
+[656000 ns] --------------------------------------------------
+[656000 ns] TC5 : async reset khong cho canh clock
+[656000 ns] --------------------------------------------------
+[681000 ns] INFO: reset da duoc nha, q_out=0
+[686000 ns] PASS #59  q_out=1 exp=1  (warm-up 1)
+[696000 ns] PASS #60  q_out=2 exp=2  (warm-up 2)
+[706000 ns] PASS #61  q_out=3 exp=3  (warm-up 3)
+[710000 ns] PASS #62  async-reset  q_out=0
+[721000 ns] ==================================================
+[721000 ns] SUMMARY  total=62  pass=62  fail=0
+[721000 ns] RESULT : ALL TESTS PASSED

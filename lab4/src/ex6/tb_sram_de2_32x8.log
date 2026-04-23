@@ -1,0 +1,47 @@
+[0 ns] ==================================================
+[0 ns]   sram_de2_32x8 : tb start (SRAM chip ngoai)
+[0 ns] ==================================================
+[0 ns] INFO: LEDG[0] = Write signal; seg decoder dung bang tra cuu.
+[0 ns] --------------------------------------------------
+[0 ns] TC1 : ghi 32 o nho, doc lai qua HEX1:HEX0
+[0 ns] --------------------------------------------------
+[970000 ns] PASS #1  addr=0  HEX1HEX0=a5 exp=a5
+[980000 ns] PASS #2  addr=1  HEX1HEX0=a4 exp=a4
+[990000 ns] PASS #3  addr=2  HEX1HEX0=a7 exp=a7
+[1000000 ns] PASS #4  addr=3  HEX1HEX0=a6 exp=a6
+[1010000 ns] PASS #5  addr=4  HEX1HEX0=a1 exp=a1
+[1020000 ns] PASS #6  addr=5  HEX1HEX0=a0 exp=a0
+[1030000 ns] PASS #7  addr=6  HEX1HEX0=a3 exp=a3
+[1040000 ns] PASS #8  addr=7  HEX1HEX0=a2 exp=a2
+[1050000 ns] PASS #9  addr=8  HEX1HEX0=ad exp=ad
+[1060000 ns] PASS #10  addr=9  HEX1HEX0=ac exp=ac
+[1070000 ns] PASS #11  addr=10  HEX1HEX0=af exp=af
+[1080000 ns] PASS #12  addr=11  HEX1HEX0=ae exp=ae
+[1090000 ns] PASS #13  addr=12  HEX1HEX0=a9 exp=a9
+[1100000 ns] PASS #14  addr=13  HEX1HEX0=a8 exp=a8
+[1110000 ns] PASS #15  addr=14  HEX1HEX0=ab exp=ab
+[1120000 ns] PASS #16  addr=15  HEX1HEX0=aa exp=aa
+[1130000 ns] PASS #17  addr=16  HEX1HEX0=b5 exp=b5
+[1140000 ns] PASS #18  addr=17  HEX1HEX0=b4 exp=b4
+[1150000 ns] PASS #19  addr=18  HEX1HEX0=b7 exp=b7
+[1160000 ns] PASS #20  addr=19  HEX1HEX0=b6 exp=b6
+[1170000 ns] PASS #21  addr=20  HEX1HEX0=b1 exp=b1
+[1180000 ns] PASS #22  addr=21  HEX1HEX0=b0 exp=b0
+[1190000 ns] PASS #23  addr=22  HEX1HEX0=b3 exp=b3
+[1200000 ns] PASS #24  addr=23  HEX1HEX0=b2 exp=b2
+[1210000 ns] PASS #25  addr=24  HEX1HEX0=bd exp=bd
+[1220000 ns] PASS #26  addr=25  HEX1HEX0=bc exp=bc
+[1230000 ns] PASS #27  addr=26  HEX1HEX0=bf exp=bf
+[1240000 ns] PASS #28  addr=27  HEX1HEX0=be exp=be
+[1250000 ns] PASS #29  addr=28  HEX1HEX0=b9 exp=b9
+[1260000 ns] PASS #30  addr=29  HEX1HEX0=b8 exp=b8
+[1270000 ns] PASS #31  addr=30  HEX1HEX0=bb exp=bb
+[1280000 ns] PASS #32  addr=31  HEX1HEX0=ba exp=ba
+[1280000 ns] --------------------------------------------------
+[1280000 ns] TC2 : ghi/doc bien addr=0 va addr=31
+[1280000 ns] --------------------------------------------------
+[1350000 ns] PASS #33  addr=0  HEX1HEX0=de exp=de
+[1360000 ns] PASS #34  addr=31  HEX1HEX0=ad exp=ad
+[1360000 ns] ==================================================
+[1360000 ns] SUMMARY  total=34  pass=34  fail=0
+[1360000 ns] RESULT : ALL TESTS PASSED

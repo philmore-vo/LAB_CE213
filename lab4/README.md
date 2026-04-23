@@ -19,7 +19,8 @@ lab4/
     ├── ex2/   counter4.v, tb_counter4_wave.v, tb_counter4_self.v
     ├── ex3/   reg_file_32x32.v, tb_reg_file_32x32.v
     ├── ex4/   dual_port_ram_1kx8.v, tb_dual_port_ram_1kx8.v
-    └── ex5/   sp_ram_128x8.v, tb_sp_ram_128x8_wave.v, tb_sp_ram_128x8_self.v
+    ├── ex5/   sp_ram_128x8.v, tb_sp_ram_128x8_wave.v, tb_sp_ram_128x8_self.v
+    └── ex6/   sram_de2_32x8.v, hex_to_7seg.v, sram_model.v, tb_sram_de2_32x8.v
 ```
 
 ## Cách chạy mô phỏng trong ModelSim-Altera
@@ -48,6 +49,7 @@ Bảng các testbench:
 | 4    | `ex4/dual_port_ram_1kx8.v`| `tb_dual_port_ram_1kx8.v`                             | self-checking         |
 | 5.1  | `ex5/sp_ram_128x8.v`      | `tb_sp_ram_128x8_wave.v`                              | quan sát dạng sóng    |
 | 5.2  | `ex5/sp_ram_128x8.v`      | `tb_sp_ram_128x8_self.v`                              | self-checking         |
+| 6    | `ex6/sram_de2_32x8.v`     | `tb_sram_de2_32x8.v` (+ `sram_model.v`, `hex_to_7seg.v`) | self-checking (mô phỏng chip SRAM ngoài) |
 
 Tiêu chí PASS cho các testbench self-checking: cuối log phải in dòng
 `RESULT : ALL TESTS PASSED` và `fail=0` trong dòng `SUMMARY`. Mỗi tb tự dump

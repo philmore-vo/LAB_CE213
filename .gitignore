@@ -1,0 +1,10 @@
+# Quartus II project artifacts
+**/altera/
+
+# ModelSim compiled library
+**/work/
+**/transcript
+**/vsim.wlf
+
+# Simulation output (large, regenerable)
+**/*.vcd
