@@ -1,0 +1,106 @@
+D:/__project_verilog/CE213/LAB_CE213/lab4/src/ex5/tb_sp_ram_128x8_self.v {1 {vlog -work work D:/__project_verilog/CE213/LAB_CE213/lab4/src/ex5/tb_sp_ram_128x8_self.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module tb_sp_ram_128x8_self
+
+Top level modules:
+	tb_sp_ram_128x8_self
+
+} {} {}} D:/__project_verilog/CE213/LAB_CE213/lab4/src/ex1/alu32.v {1 {vlog -work work D:/__project_verilog/CE213/LAB_CE213/lab4/src/ex1/alu32.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module alu32
+
+Top level modules:
+	alu32
+
+} {} {}} D:/__project_verilog/CE213/LAB_CE213/lab4/src/ex5/sp_ram_128x8.v {1 {vlog -work work D:/__project_verilog/CE213/LAB_CE213/lab4/src/ex5/sp_ram_128x8.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module sp_ram_128x8
+
+Top level modules:
+	sp_ram_128x8
+
+} {} {}} D:/__project_verilog/CE213/LAB_CE213/lab4/src/ex2/tb_counter4_wave.v {1 {vlog -work work D:/__project_verilog/CE213/LAB_CE213/lab4/src/ex2/tb_counter4_wave.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module tb_counter4_wave
+
+Top level modules:
+	tb_counter4_wave
+
+} {} {}} D:/__project_verilog/CE213/LAB_CE213/lab4/src/ex4/tb_dual_port_ram_1kx8.v {1 {vlog -work work D:/__project_verilog/CE213/LAB_CE213/lab4/src/ex4/tb_dual_port_ram_1kx8.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module tb_dual_port_ram_1kx8
+
+Top level modules:
+	tb_dual_port_ram_1kx8
+
+} {} {}} D:/__project_verilog/CE213/LAB_CE213/lab4/src/ex4/dual_port_ram_1kx8.v {1 {vlog -work work D:/__project_verilog/CE213/LAB_CE213/lab4/src/ex4/dual_port_ram_1kx8.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module dual_port_ram_1kx8
+
+Top level modules:
+	dual_port_ram_1kx8
+
+} {} {}} D:/__project_verilog/CE213/LAB_CE213/lab4/src/ex5/tb_sp_ram_128x8_wave.v {1 {vlog -work work D:/__project_verilog/CE213/LAB_CE213/lab4/src/ex5/tb_sp_ram_128x8_wave.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module tb_sp_ram_128x8_wave
+
+Top level modules:
+	tb_sp_ram_128x8_wave
+
+} {} {}} D:/__project_verilog/CE213/LAB_CE213/lab4/src/ex6/sram_model.v {1 {vlog -work work D:/__project_verilog/CE213/LAB_CE213/lab4/src/ex6/sram_model.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module sram_model
+
+Top level modules:
+	sram_model
+
+} {} {}} D:/__project_verilog/CE213/LAB_CE213/lab4/src/ex3/reg_file_32x32.v {1 {vlog -work work D:/__project_verilog/CE213/LAB_CE213/lab4/src/ex3/reg_file_32x32.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module reg_file_32x32
+
+Top level modules:
+	reg_file_32x32
+
+} {} {}} D:/__project_verilog/CE213/LAB_CE213/lab4/src/ex6/hex_to_7seg.v {1 {vlog -work work D:/__project_verilog/CE213/LAB_CE213/lab4/src/ex6/hex_to_7seg.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module hex_to_7seg
+
+Top level modules:
+	hex_to_7seg
+
+} {} {}} D:/__project_verilog/CE213/LAB_CE213/lab4/src/ex6/tb_sram_de2_32x8.v {1 {vlog -work work D:/__project_verilog/CE213/LAB_CE213/lab4/src/ex6/tb_sram_de2_32x8.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module tb_sram_de2_32x8
+
+Top level modules:
+	tb_sram_de2_32x8
+
+} {} {}} D:/__project_verilog/CE213/LAB_CE213/lab4/src/ex2/tb_counter4_self.v {1 {vlog -work work D:/__project_verilog/CE213/LAB_CE213/lab4/src/ex2/tb_counter4_self.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module tb_counter4_self
+
+Top level modules:
+	tb_counter4_self
+
+} {} {}} D:/__project_verilog/CE213/LAB_CE213/lab4/src/ex1/tb_alu32.v {1 {vlog -work work D:/__project_verilog/CE213/LAB_CE213/lab4/src/ex1/tb_alu32.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module tb_alu32
+
+Top level modules:
+	tb_alu32
+
+} {} {}} D:/__project_verilog/CE213/LAB_CE213/lab4/src/ex2/counter4.v {1 {vlog -work work D:/__project_verilog/CE213/LAB_CE213/lab4/src/ex2/counter4.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module counter4
+
+Top level modules:
+	counter4
+
+} {} {}} D:/__project_verilog/CE213/LAB_CE213/lab4/src/ex3/tb_reg_file_32x32.v {1 {vlog -work work D:/__project_verilog/CE213/LAB_CE213/lab4/src/ex3/tb_reg_file_32x32.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module tb_reg_file_32x32
+
+Top level modules:
+	tb_reg_file_32x32
+
+} {} {}}
