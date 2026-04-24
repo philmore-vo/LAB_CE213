@@ -49,17 +49,14 @@ module sram_de2_32x8 (
     wire [7:0] data_in   = SW[7:0];
     wire       write_en  = SW[17];
     wire       clock_btn = KEY[0];     // KEY active-low; day la clock go-by-key
-    wire       ce_n     = 1'b0;           // tie CE = 0 de luon enable chip SRAM
-    wire       oe_n     = SW[16];
-    wire       ub_n     = SW[9];           
-    wire       lb_n     = SW[8];          
+
     //--------------------------------------------------------------------------
-    // Cac chan dieu khien SRAM
+    // Cac chan dieu khien SRAM: 4 chan nho tie 0 (CE, OE, UB, LB)
     //--------------------------------------------------------------------------
-    assign SRAM_CE_N = ce_n;
-    assign SRAM_OE_N = oe_n;
-    assign SRAM_UB_N = ub_n;
-    assign SRAM_LB_N = lb_n;
+    assign SRAM_CE_N = 1'b0;
+    assign SRAM_OE_N = 1'b0;
+    assign SRAM_UB_N = 1'b0;           // dung ca upper + lower byte
+    assign SRAM_LB_N = 1'b0;
 
     //--------------------------------------------------------------------------
     // /WE = 0 khi dang ghi; nguoc lai bang 1 -> cho phep doc
