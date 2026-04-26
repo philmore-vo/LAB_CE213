@@ -33,7 +33,26 @@ Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 Top level modules:
 	tb_dual_port_ram_1kx8
 
-} {} {}} D:/__project_verilog/CE213/LAB_CE213/lab4/src/ex4/dual_port_ram_1kx8.v {1 {vlog -work work D:/__project_verilog/CE213/LAB_CE213/lab4/src/ex4/dual_port_ram_1kx8.v
+} {} {}} D:/__project_verilog/CE213/LAB_CE213/lab4/altera/ex6/simulation/modelsim/ex6.vo {1 {vlog -work work D:/__project_verilog/CE213/LAB_CE213/lab4/altera/ex6/simulation/modelsim/ex6.vo
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module alu32
+
+Top level modules:
+	alu32
+
+} {} {}} D:/__project_verilog/CE213/LAB_CE213/lab4/src/ex6/sram_de2_32x8.v {1 {vlog -work work D:/__project_verilog/CE213/LAB_CE213/lab4/src/ex6/sram_de2_32x8.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module sram_de2_32x8
+
+Top level modules:
+	sram_de2_32x8
+
+} {} {}} D:/__project_verilog/CE213/LAB_CE213/lab4/altera/simulation/modelsim/alu32.vo {0 {vlog -work work D:/__project_verilog/CE213/LAB_CE213/lab4/altera/simulation/modelsim/alu32.vo
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module alu32
+** Error: D:/__project_verilog/CE213/LAB_CE213/lab4/altera/simulation/modelsim/alu32.vo(159): near "$sdf_annotate": syntax error, unexpected SYSTEM_IDENTIFIER
+
+} {4.0 5.0} {}} D:/__project_verilog/CE213/LAB_CE213/lab4/src/ex4/dual_port_ram_1kx8.v {1 {vlog -work work D:/__project_verilog/CE213/LAB_CE213/lab4/src/ex4/dual_port_ram_1kx8.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling module dual_port_ram_1kx8
 
@@ -68,19 +87,19 @@ Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 Top level modules:
 	hex_to_7seg
 
-} {} {}} D:/__project_verilog/CE213/LAB_CE213/lab4/src/ex6/tb_sram_de2_32x8.v {1 {vlog -work work D:/__project_verilog/CE213/LAB_CE213/lab4/src/ex6/tb_sram_de2_32x8.v
-Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module tb_sram_de2_32x8
-
-Top level modules:
-	tb_sram_de2_32x8
-
 } {} {}} D:/__project_verilog/CE213/LAB_CE213/lab4/src/ex2/tb_counter4_self.v {1 {vlog -work work D:/__project_verilog/CE213/LAB_CE213/lab4/src/ex2/tb_counter4_self.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling module tb_counter4_self
 
 Top level modules:
 	tb_counter4_self
+
+} {} {}} D:/__project_verilog/CE213/LAB_CE213/lab4/src/ex6/tb_sram_de2_32x8.v {1 {vlog -work work D:/__project_verilog/CE213/LAB_CE213/lab4/src/ex6/tb_sram_de2_32x8.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module tb_sram_de2_32x8
+
+Top level modules:
+	tb_sram_de2_32x8
 
 } {} {}} D:/__project_verilog/CE213/LAB_CE213/lab4/src/ex1/tb_alu32.v {1 {vlog -work work D:/__project_verilog/CE213/LAB_CE213/lab4/src/ex1/tb_alu32.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
@@ -89,18 +108,18 @@ Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 Top level modules:
 	tb_alu32
 
-} {} {}} D:/__project_verilog/CE213/LAB_CE213/lab4/src/ex2/counter4.v {1 {vlog -work work D:/__project_verilog/CE213/LAB_CE213/lab4/src/ex2/counter4.v
-Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module counter4
-
-Top level modules:
-	counter4
-
 } {} {}} D:/__project_verilog/CE213/LAB_CE213/lab4/src/ex3/tb_reg_file_32x32.v {1 {vlog -work work D:/__project_verilog/CE213/LAB_CE213/lab4/src/ex3/tb_reg_file_32x32.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling module tb_reg_file_32x32
 
 Top level modules:
 	tb_reg_file_32x32
+
+} {} {}} D:/__project_verilog/CE213/LAB_CE213/lab4/src/ex2/counter4.v {1 {vlog -work work D:/__project_verilog/CE213/LAB_CE213/lab4/src/ex2/counter4.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module counter4
+
+Top level modules:
+	counter4
 
 } {} {}}
